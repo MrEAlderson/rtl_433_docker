@@ -28,7 +28,7 @@ export interface BuildTask {
 }
 
 const GHCR_REPO = "marcel1199/rtl_433-mqtt_rfraw_support";
-const DOCKER_HUB_REPOS = [""];
+const DOCKER_HUB_REPOS = [];
 const REPOS = [...DOCKER_HUB_REPOS, GHCR_REPO];
 
 const MAX_RELEASE_VERSIONS = 3;
