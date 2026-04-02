@@ -7,4 +7,4 @@ services:
       context: ../..
       args:
         - alpineVersion=latest
-        - rtl433GitRevision=master
+        - rtl433GitRevision=mqtt_rfraw_support
