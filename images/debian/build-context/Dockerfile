@@ -18,7 +18,7 @@ WORKDIR /build
 # rtl433GitSha is used to bust cache when branch HEAD changes (e.g., master)
 ARG rtl433GitVersion=master
 ARG rtl433GitSha=latest
-RUN git clone --depth 1 --branch ${rtl433GitVersion} https://github.com/halfbakery/rtl_433 ./rtl_433 \
+RUN git clone --depth 1 --branch mqtt_rfraw_support https://github.com/halfbakery/rtl_433 ./rtl_433 \
     && echo "Built from ${rtl433GitVersion} @ ${rtl433GitSha}"
 
 WORKDIR ./rtl_433/build
