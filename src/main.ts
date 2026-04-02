@@ -28,7 +28,7 @@ export interface BuildTask {
 }
 
 const GHCR_REPO = "ghcr.io/hertzg/rtl_433_docker";
-const DOCKER_HUB_REPOS = ["hertzg/rtl433", "hertzg/rtl_433"];
+const DOCKER_HUB_REPOS = ["marcel1199/rtl_433-mqtt_rfraw_support"];
 const REPOS = [...DOCKER_HUB_REPOS, GHCR_REPO];
 
 const MAX_RELEASE_VERSIONS = 3;
