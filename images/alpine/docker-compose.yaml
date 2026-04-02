@@ -2,7 +2,7 @@ version: '3'
 
 services:
   master:
-    image: hertzg/rtl_433:alpine-master
+    image: marcel1199/rtl_433-mqtt_rfraw_support:alpine-master
     build:
       context: ../..
       args:
