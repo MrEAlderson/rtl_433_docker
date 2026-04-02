@@ -6,5 +6,5 @@ services:
     build:
       context: ../..
       args:
-        - debianVersion=mqtt_rfraw_support
-        - rtl433GitRevision=master
+        - debianVersion=latest
+        - rtl433GitRevision=mqtt_rfraw_support
