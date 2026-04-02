@@ -10,6 +10,14 @@ on:
         required: true
         type: boolean
         default: false
+      ghcrManifestCmds:
+        required: false
+        type: string
+        default: ""
+      skopeoCopyCmds:
+        required: false
+        type: string
+        default: ""
 
 jobs:
   build:
